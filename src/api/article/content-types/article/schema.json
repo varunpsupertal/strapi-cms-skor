@@ -91,6 +91,21 @@
           "localized": true
         }
       }
+    },
+    "storyType": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "Latest",
+        "Top",
+        "Breaking"
+      ],
+      "required": true,
+      "default": "Latest"
     }
   }
 }

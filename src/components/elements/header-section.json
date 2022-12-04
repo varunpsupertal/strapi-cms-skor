@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_links_header_sections",
+  "info": {
+    "name": "HeaderSection",
+    "displayName": "Header section",
+    "icon": "chevron-circle-up"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "links.link"
+    }
+  }
+}
