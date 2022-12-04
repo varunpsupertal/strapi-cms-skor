@@ -19,6 +19,7 @@
     "mysql": "2.18.1",
     "pg": "^8.8.0",
     "strapi-plugin-config-sync": "^1.0.4",
+    "strapi-plugin-import-export-entries": "^1.18.0",
     "strapi-plugin-sitemap": "^2.0.8"
   },
   "author": {

@@ -7,11 +7,18 @@
   },
   "options": {},
   "attributes": {
-    "body": {
+    "excerpt": {
       "type": "richtext",
       "ckeditor": {
         "enabled": true
       }
+    },
+    "content": {
+      "type": "customField",
+      "options": {
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
     }
   }
 }

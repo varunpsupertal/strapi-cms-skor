@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "co_creator_networks",
+  "info": {
+    "singularName": "co-creator-network",
+    "pluralName": "co-creator-networks",
+    "displayName": "CreatorNetwork",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "videoUrl": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
